@@ -1,0 +1,8 @@
+.env
+node_modules
+# 忽略 dump 資料夾裡的所有東西
+dump/*
+# 但不包括 .gitkeep
+# .gitkeep 是空檔案
+# 因為如果 dump 資料夾裡沒有東西，資料夾也會被忽略
+!dump/.gitkeep
